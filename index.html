@@ -6,5 +6,37 @@
     <title>Biblioteca Virtual</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Biblioteca Virtual</h1>
+      <div id="books-container">
+        <!-- Libros disponibles -->
+        <div
+          class="book"
+          data-title="Cien Años de Soledad"
+          data-author="Gabriel García Márquez"
+          data-description="Un clásico de la literatura que narra la historia de la familia Buendía en Macondo."
+          data-cover="./img/cien_años_de_soledad.png"
+        >
+          <img
+            src="./img/cien_años_de_soledad.png"
+            alt="Cien Años de Soledad"
+          />
+          <p>Cien Años de Soledad</p>
+        </div>
+
+        <div
+          class="book"
+          data-title="1984"
+          data-author="George Orwell"
+          data-description="Una novela distópica sobre un mundo controlado por un gobierno totalitario."
+          data-cover="./img/1984.png"
+        >
+          <img src="./img/1984.png" alt="1984" />
+          <p>1984</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
