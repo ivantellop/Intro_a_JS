@@ -69,15 +69,27 @@ button:hover {
     margin-top: 10px;
     text-align: left;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment p {
+    margin: 0;
+    flex: 1;
 }
 
 .comment .delete-btn {
     background: red;
     color: white;
     border: none;
-    padding: 5px;
+    padding: 5px 8px;
     cursor: pointer;
-    position: absolute;
-    top: 5px;
-    right: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.comment .delete-btn:hover {
+    background: darkred;
 }
