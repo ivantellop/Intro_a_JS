@@ -36,6 +36,26 @@
           <p>1984</p>
         </div>
       </div>
+      <!-- Sección de detalles del libro seleccionado -->
+      <div id="book-details" class="hidden">
+        <h2 id="book-title"></h2>
+        <img id="book-cover" src="" alt="Portada del libro" />
+        <p><strong>Autor:</strong> <span id="book-author"></span></p>
+        <p><strong>Descripción:</strong> <span id="book-description"></span></p>
+
+        <!-- Sección de comentarios -->
+        <h3>Comentarios</h3>
+        <form id="comment-form">
+          <textarea
+            id="comment"
+            rows="3"
+            placeholder="Escribe tu comentario aquí..."
+          ></textarea>
+          <button type="submit">Agregar Comentario</button>
+        </form>
+        <div id="comments-container"></div>
+        <button id="back-button">Regresar</button>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
